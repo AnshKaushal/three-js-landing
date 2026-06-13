@@ -28,7 +28,7 @@ export default function CTASection() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="mb-6 block text-[10px] font-medium tracking-[0.2em] text-white/40 uppercase">
+          <span className="mb-6 block text-[10px] font-medium tracking-[0.2em] text-muted-foreground uppercase">
             Let's Work Together
           </span>
         </motion.div>
@@ -38,12 +38,12 @@ export default function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-heading text-[clamp(2.5rem,10vw,7rem)] leading-none font-bold tracking-tighter text-white"
+          className="font-heading text-[clamp(2.5rem,10vw,7rem)] leading-none font-bold tracking-tighter text-foreground"
         >
           READY TO BUILD
           <br />
           SOMETHING{" "}
-          <span className="bg-linear-to-r from-white via-white/80 to-white/40 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-foreground via-foreground/80 to-foreground/40 bg-clip-text text-transparent">
             EXTRAORDINARY
           </span>
           ?
@@ -54,7 +54,7 @@ export default function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-          className="mx-auto mt-6 max-w-lg text-xs leading-relaxed text-white/50"
+          className="mx-auto mt-6 max-w-lg text-xs leading-relaxed text-foreground/50"
         >
           Every great project starts with a conversation. Tell us about your
           vision, and let's craft something that pushes the boundaries of what's
@@ -83,14 +83,14 @@ export default function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-16 grid grid-cols-3 gap-8 pt-10"
+          className="mt-16 grid grid-cols-3 gap-8 border-t border-border pt-10"
         >
           {stats.map((s) => (
             <div key={s.label}>
-              <div className="font-heading text-2xl font-bold tracking-tighter text-white sm:text-3xl">
+              <div className="font-heading text-2xl font-bold tracking-tighter text-foreground sm:text-3xl">
                 {s.value}
               </div>
-              <div className="mt-1 text-[10px] tracking-[0.15em] text-white/40 uppercase">
+              <div className="mt-1 text-[10px] tracking-[0.15em] text-muted-foreground uppercase">
                 {s.label}
               </div>
             </div>

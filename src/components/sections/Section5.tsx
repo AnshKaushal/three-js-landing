@@ -25,7 +25,7 @@ const MarqueeRow = ({
         style={{ background: p.gradient }}
       >
         <div className="flex h-full items-end p-4">
-          <span className="rounded bg-black/40 px-2 py-1 text-[10px] font-medium tracking-wide text-white/80 uppercase backdrop-blur-sm">
+          <span className="rounded bg-background/60 px-2 py-1 text-[10px] font-medium tracking-wide text-foreground/80 uppercase backdrop-blur-sm">
             {p.label}
           </span>
         </div>
@@ -37,10 +37,10 @@ const MarqueeRow = ({
 const Section5 = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
     <div ref={ref} className="w-full">
-      <span className="mb-4 block text-center text-[10px] font-medium tracking-[0.2em] text-white/60 uppercase">
+      <span className="mb-4 block text-center text-[10px] font-medium tracking-[0.2em] text-muted-foreground uppercase">
         Moments
       </span>
-      <h2 className="mb-12 text-center font-heading text-[clamp(2.5rem,8vw,6rem)] leading-none font-bold tracking-tighter text-white">
+      <h2 className="mb-12 text-center font-heading text-[clamp(2.5rem,8vw,6rem)] leading-none font-bold tracking-tighter text-foreground">
         THE BRIDGE
       </h2>
 

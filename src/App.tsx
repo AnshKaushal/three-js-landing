@@ -9,6 +9,8 @@ import Section4 from "./components/sections/Section4"
 import Section5 from "./components/sections/Section5"
 import Section6 from "./components/sections/Section6"
 import CTASection from "./components/sections/CTASection"
+import AwwwardsSection from "./components/sections/AwwwardsSection"
+import Footer from "./components/sections/Footer"
 import SharedScene from "./components/shared/SharedScene"
 
 gsap.registerPlugin(ScrollTrigger)
@@ -136,6 +138,8 @@ export default function App() {
         </div>
       </div>
       <CTASection />
+      <AwwwardsSection />
+      <Footer />
     </main>
   )
 }
