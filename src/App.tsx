@@ -138,8 +138,6 @@ export default function App() {
         </div>
       </div>
       <CTASection />
-      <AwwwardsSection />
-      <Footer />
     </main>
   )
 }

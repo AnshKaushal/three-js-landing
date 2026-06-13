@@ -83,7 +83,7 @@ export default function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-16 grid grid-cols-3 gap-8 border-t border-border pt-10"
+          className="mt-16 grid grid-cols-3 gap-8"
         >
           {stats.map((s) => (
             <div key={s.label}>
